@@ -1,0 +1,132 @@
+:root{
+    --primary-text: yellow;
+}
+
+/* header */
+.main-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(pikacu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid var(--primary-text);
+}
+/* header */
+
+/* footer */
+.main-footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(pikacu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-top: 1px solid var(--primary-text);
+}
+/* footer */
+
+
+
+/* sidebar */
+.main-sidebar{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(aniime.png);
+    background-position: center;
+    box-shadow: 0px 0px 20px 0px var(--primary-text);
+}
+
+.brand-link{
+    border-bottom: 1px solid var(--primary-text);
+}
+
+.user-panel{
+    border-bottom: 1px solid var(--primary-text);
+}
+
+.nav-link{
+    /* transition: all .5s ; */
+}
+
+.nav-link:hover{
+    background-color: var(--primary-text);
+    box-shadow: 0px 0px 10px 0px var(--primary-text);
+    
+    
+    i{
+        color: black;
+    }
+
+    p{
+        color: black;
+    }
+}
+
+i{
+    color: var(--primary-text);
+}
+
+
+p{
+    color: var(--primary-text);
+}
+/* sidebar */
+
+/* dashboard */
+.content-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(pikacu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.small-box{
+    border: 1px solid var(--primary-text);
+    transition: all .5s;
+    color: var(--primary-text);
+}
+
+.small-box:hover{
+    box-shadow: 0px 0px 10px 0px var(--primary-text);
+    background-color: var(--primary-text);
+    color: black;
+
+    p{
+        color: black;
+    }
+
+    .small-box-footer{
+        color: black;
+
+        .fas{
+            color: black;
+        }
+    }
+}
+
+.text-color{
+    color: var(--primary-text);
+}
+/* dashboard */
+
+/* data_panitia */
+
+.col-12{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(pikacu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card{
+    background-color: transparent;
+}
+
+thead{
+    
+    color: var(--primary-text);
+}
+
+td{
+    color: var(--primary-text);
+}
+/* data_panitia */
